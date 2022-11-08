@@ -1,7 +1,7 @@
 body {
     background-color: #1A1A1A;
 }
-
+/* забыл добавить для всех эллементов пару настроек *{ } */
 .container {
     display: flex;
     background-color: #CFA3B2;
@@ -10,25 +10,26 @@ body {
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 10px;
-    background-image: url(hills.png);
+    background-image: url(hills.png); /* по html коду поймешь что я тут иммел ввиду */
     background-repeat: no-repeat;
     background-size: 50%;
 }
 
 .email input {
-    border: none;
-    outline: none;
+    border: none; /*мог бы эти значения закинуть для всех в   *{}   */ 
+    outline: none; /*мог бы эти значения закинуть для всех в   *{}   */ 
     background-color: #fff;
     width: 360px;
     height: 67px;
     border-radius: 10px;
-    margin-top: 224px;
+    margin-top: 224px; /* мог в одну строку написать маржин*/
     margin-left: 738px;
 }
-
+/* два одинаковых инпута, создал бы тогда один класс, вписал туда все общие стили!!!! */
+/*  думай о сокращение кода*/
 .password input {
-    border: none;
-    outline: none;
+    border: none; /*мог бы эти значения закинуть для всех в   *{}   */ 
+    outline: none; /*мог бы эти значения закинуть для всех в   *{}   */ 
     background-color: #fff;
     width: 360px;
     height: 67px;
@@ -36,7 +37,7 @@ body {
     margin-left: 738px;
     margin-top: 36px;
 }
-
+/*  поменяй на кнопку */
 .submit input {
     background-color: #C6FF7E;
     width: 360px;
@@ -53,6 +54,7 @@ body {
 }
 
 .link {
+    /*     тут мог бы просто дать тугу a класс display: inline-block; и стал бы стилизовать  */
     margin-left: 863px;
     margin-top: 22px;
 }
